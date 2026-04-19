@@ -3,7 +3,6 @@ import ContactUs from "./typography/contact-us";
 export default function Footer() {
   return (
     <footer id="contact" className="relative bg-wood-brown text-foreground border-t border-fire-orange/30 pt-16 pb-8 mt-auto overflow-hidden z-10 w-full">
-      {/* Background decoration */}
       <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-background via-fire-orange to-background"></div>
       <div className="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 rounded-full bg-fire-red/10 blur-[80px] pointer-events-none"></div>
       <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-fire-orange/10 blur-[80px] pointer-events-none"></div>
@@ -11,7 +10,6 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
 
-          {/* Brand & Info */}
           <div className="flex flex-col space-y-6">
             <h2 className="text-5xl font-extrabold tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-fire-red to-fire-yellow pb-2">
               PIQUAIIA
